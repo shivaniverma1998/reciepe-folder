@@ -72,6 +72,18 @@ a{
     color: azure;
     font-size: 2rem;
 }
+.social-links {
+    display: flex;
+    flex-direction: column;
+     /* make social links inline */
+}
+.social-links img{
+    height: 50px;
+}
+.social-links p{
+    font-size: 1rem;
+    
+}
 
 .contentBox{
     width: 70%;
@@ -106,6 +118,26 @@ a{
     transition: all 0.3s 0s linear;
     height: 100%;
 }
+
+.frontbox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 400px;
+    align-items: center;
+    justify-content: left;
+}
+.frontbox img{
+    height: 100px;
+    border-radius: 50px;
+    transition: all 0.3s 0s linear;
+    height: 50%;
+}
+.frontbox:hover{
+    transform: scale(1.2);
+
+}
+
 
 .rightbox:hover{
     transform: scale(1.2);
